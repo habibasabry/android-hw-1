@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6E8D4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/GradeCalculator"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="49dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Grade Calculator"
+        android:textColor="#105773"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/Quizes"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/GradeCalculator"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="10dp"
+        android:background="#80018786"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint=" Quizes 15%"
+        android:inputType="textPersonName"
+        android:textColor="#105773"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Final"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/Quizes"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:background="#80018786"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint=" Final 30%"
+        android:inputType="textPersonName"
+        android:textColor="#105773"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Homeworks"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/Final"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#80018786"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint=" Homeworks 25%"
+        android:inputType="textPersonName"
+        android:textColor="#105773"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Midterms"
+        android:layout_width="250dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/Homeworks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#80018786"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint=" Mid terms 30%"
+        android:inputType="textPersonName"
+        android:textColor="#105773"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Calculate"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/Midterms"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#175D7E"
+        android:fontFamily="sans-serif-black"
+        android:text="Calculate"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/Raset"
+        android:layout_width="115dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/Calculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#2987B1"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Raset"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Raset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="#105773"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="315dp"
+        app:srcCompat="@drawable/logo" />
+
+
+</RelativeLayout>
